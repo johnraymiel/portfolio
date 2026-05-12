@@ -1,35 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Main Index</title>
-  <!-- Corrected paths -->
-  <link rel="stylesheet" href="static/style.css">
-  <script src="static/app.js" defer></script>
+
+  <title>John Raymiel Velasco | Portfolio</title>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
-  <header class="site-header">
-    <div class="logo-container">
-      <img src="static/assets/logo.png" alt="Website Logo" class="logo">
-      <h1 class="site-title">Welcome to My Website</h1>
+
+  <!-- BACKGROUND GLOW -->
+  <div class="bg-glow glow1"></div>
+  <div class="bg-glow glow2"></div>
+
+  <!-- NAVBAR -->
+  <header>
+
+    <div class="logo">
+      J.R.V
     </div>
+
+    <nav>
+
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+
+    </nav>
+
   </header>
 
-  <main class="container">
-    <p class="intro-text">Select your portal:</p>
-    <div class="button-group">
-      <button id="userBtn" class="btn btn-primary">User Portal</button>
-      <button id="adminBtn" class="btn btn-secondary">Admin Portal</button>
-    </div>
-  </main>
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
 
-  <footer class="site-footer">
-    <p>&copy; 2026 My Website. All rights reserved.</p>
+    <!-- HERO TEXT -->
+    <div class="hero-text">
+
+      <p class="tag">
+        Web Developer • UI Enthusiast
+      </p>
+
+      <h1>
+        JOHN RAYMIEL
+        <span>VELASCO</span>
+      </h1>
+
+      <p class="description">
+
+        Aspiring full-stack developer passionate about
+        creating modern, responsive, and user-friendly websites.
+
+        I became curious about technology and development,
+        which inspired me to continuously improve my coding,
+        design, and problem-solving skills through projects
+        and learning.
+
+      </p>
+
+      <div class="buttons">
+
+        <a href="#projects" class="btn primary">
+          View Projects
+        </a>
+
+        <a href="#contact" class="btn secondary">
+          Contact Me
+        </a>
+
+      </div>
+
+    </div>
+
+    <!-- HERO CARD -->
+    <div class="hero-card">
+
+      <div class="card-glow"></div>
+
+      <!-- PROFILE IMAGE -->
+      <img src="profile.jpg" alt="Profile">
+
+      <div class="card-content">
+
+        <h3>
+          Student Developer
+        </h3>
+
+        <p>
+          Building clean and modern digital experiences.
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="section" id="about">
+
+    <div class="section-title">
+
+      <p>INTRODUCTION</p>
+
+      <h2>About Me</h2>
+
+    </div>
+
+    <div class="about-container">
+
+      <!-- ABOUT BOX -->
+      <div class="about-box">
+
+        <h3>Who I Am</h3>
+
+        <p>
+
+          I am an aspiring developer from the Philippines
+          who became curious about web development,
+          UI/UX design, and technology.
+
+          I enjoy learning new programming skills
+          and building projects that help me grow
+          as a future developer.
+
+        </p>
+
+      </div>
+
+      <!-- ABOUT BOX -->
+      <div class="about-box">
+
+        <h3>My Goal</h3>
+
+        <p>
+
+          My goal is to become a professional
+          full-stack developer capable of creating
+          modern, scalable, and visually engaging
+          websites and applications.
+
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section class="section" id="skills">
+
+    <div class="section-title">
+
+      <p>EXPERTISE</p>
+
+      <h2>Technical Skills</h2>
+
+    </div>
+
+    <div class="skills-grid">
+
+      <!-- HTML -->
+      <div class="skill-card">
+
+        <div class="skill-info">
+
+          <span>HTML</span>
+          <span>90%</span>
+
+        </div>
+
+        <div class="skill-bar">
+          <div class="skill-progress html"></div>
+        </div>
+
+      </div>
+
+      <!-- CSS -->
+      <div class="skill-card">
+
+        <div class="skill-info">
+
+          <span>CSS</span>
+          <span>85%</span>
+
+        </div>
+
+        <div class="skill-bar">
+          <div class="skill-progress css"></div>
+        </div>
+
+      </div>
+
+      <!-- JAVASCRIPT -->
+      <div class="skill-card">
+
+        <div class="skill-info">
+
+          <span>JavaScript</span>
+          <span>75%</span>
+
+        </div>
+
+        <div class="skill-bar">
+          <div class="skill-progress js"></div>
+        </div>
+
+      </div>
+
+      <!-- PHP -->
+      <div class="skill-card">
+
+        <div class="skill-info">
+
+          <span>PHP</span>
+          <span>70%</span>
+
+        </div>
+
+        <div class="skill-bar">
+          <div class="skill-progress php"></div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PROJECTS SECTION -->
+  <section class="section" id="projects">
+
+    <div class="section-title">
+
+      <p>PORTFOLIO</p>
+
+      <h2>Featured Projects</h2>
+
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- PROJECT 1 -->
+      <div class="project-card">
+
+        <div class="project-overlay"></div>
+
+        <h3>Cyberpunk Portfolio</h3>
+
+        <p>
+          Futuristic portfolio website with neon effects,
+          animations, and responsive design.
+        </p>
+
+        <a href="#">
+          View Project
+        </a>
+
+      </div>
+
+      <!-- PROJECT 2 -->
+      <div class="project-card">
+
+        <div class="project-overlay"></div>
+
+        <h3>CRUD Management System</h3>
+
+        <p>
+          PHP and MySQL project with complete
+          Create, Read, Update, and Delete functions.
+        </p>
+
+        <a href="#">
+          View Project
+        </a>
+
+      </div>
+
+      <!-- PROJECT 3 -->
+      <div class="project-card">
+
+        <div class="project-overlay"></div>
+
+        <h3>Student Dashboard UI</h3>
+
+        <p>
+          Modern dashboard interface with clean layout,
+          responsive design, and user-friendly experience.
+        </p>
+
+        <a href="#">
+          View Project
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="section" id="contact">
+
+    <div class="section-title">
+
+      <p>GET IN TOUCH</p>
+
+      <h2>Contact Me</h2>
+
+    </div>
+
+    <div class="contact-box">
+
+      <p>Email: your@email.com</p>
+
+      <p>Phone: +63 912 345 6789</p>
+
+      <p>Location: Philippines</p>
+
+      <div class="socials">
+
+        <a href="#">Facebook</a>
+
+        <a href="#">GitHub</a>
+
+        <a href="#">Instagram</a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+
+    <p>
+      © 2026 John Raymiel Velasco • Professional Portfolio
+    </p>
+
   </footer>
 
-
-  </script>
 </body>
 </html>
-
